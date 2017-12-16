@@ -1,0 +1,38 @@
+@charset "EUC-KR";
+
+
+#productMain{
+	float:left;
+	width:50%;
+}
+
+#join_form{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+/* table */
+/*ÁÙ¹«´Ì Çà
+.table-b > tbody > tr:nth-child(odd) > td, .table-b > tbody > tr:nth-child(odd) > th { background-color: #f9f9f9; }*/
+.table-c > tbody > tr:nth-child(odd) > td { background-color: #f9f9f9; }
+.table-hover > tbody > tr:hover > td { background-color: #ececec; }
+.table-a, .table-b, .table-c { font-size:13px; width:100% !important; }
+.table-a tr th, .table-a tr td, .table-b tr th, .table-b tr td, .table-c tr th, .table-c tr td  { padding:5px; border-bottom:1px #DEDEDE solid; font-size:13px;}
+.table-a .ui-datepicker-trigger {  vertical-align:middle;}
+.table-a tr th, .table-a tr td, .table-a .hline  { height:22px;}
+.table-a .hline { border-top:2px #6d98cf solid; }
+.table-b tr th, .table-b tr td, .table-c tr th, .table-c tr td { height:26px; text-align:center;}
+.table-a th, .table-b th, .table-c th  { background:#F4F4F4; }
+.table-b .hline, .table-c .hline { border-top:2px #6d98cf solid; height:30px;}
+.table-a td, .table-b td, .table-c td { background:#fff;}
+.rightline { border-right:1px #dedede solid;}
+.textleft {text-align:left !important;}
+.table-a a, .table-b a, .table-c a { color:#127edc;}
+.table-b tbody td, .table-c tbody td { font-size:12px !important;}
+.table-a, .table-b, table-c { width:100%;}
+.table-i { width:100%; font-size:13px; margin:10px 0 }
+.table-i td { padding:2px; text-align:left; vertical-align:middle;}
+.table-i label { font-weight:bold;}
+.table-i tr td input[type="button"] { vertical-align:middle !important;display:inline-block;}
+.table-i .cal { vertical-align:central !important; padding-top:0; margin-left: 2px; vertical-align: middle; cursor: pointer;}
+

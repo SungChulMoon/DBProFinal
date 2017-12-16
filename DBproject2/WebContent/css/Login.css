@@ -1,0 +1,103 @@
+@CHARSET "EUC-KR";
+
+#join_form fieldset{
+	width:80%;
+	float:left;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+
+#join_form h4{
+	color:#406997;
+	font-size:1.3em;
+	letter-spacing:-2px;
+}
+
+#join_form legend{
+	color:#406997;
+	font-size:1.1em;
+	letter-spacing:-1px;
+	
+	padding-top:30px;
+	padding-left:10px;
+	padding-bottom:5px;
+	color:#033773;
+	background:ulr("../img/join_form_title_bullet.gif") no-repeat left 35px;
+}
+
+
+.form_basic th, .form_add th{
+	text-align:left;
+	text-indent:7px;
+	letter-spacing:-1px;
+}
+
+.form_basic th{
+	color:#01396f;
+}
+
+.form_add th{
+	color:#666666;
+}
+
+.form_basic td{
+	color:#707070;
+}
+
+.form_basic, .form_add{
+	width:100%;
+	border-top:1px solid #6d98cf;
+	border-bottom:1px solid #6d98cf;
+}
+
+.form_basic th, .form_add th{background-color:#eaf0f9;}
+.form_basic th, .form_basic td, .form_add th, .form_th{
+	padding: 5px 0;
+	border-bottom:1px solid #d8e4f2;
+}
+
+.form_basic td, .form_add td{padding-left:5px;}
+.form_basic th label, .form_add th label{displaa:block;}
+input, select{
+	height:1.5em;
+	border:1px solid #c4c4c4;
+}
+
+select{width:30%;}
+.txt_type{width:25%;}
+.txt_type1{width:70%;}
+.num_type{width:10%;}
+
+.id_btn{
+	margin-bottom:4px;
+	
+	height:20px;
+	font-size: 15px;
+   color: white;
+   background: #64AAFF;
+   border: 0;
+   border-radius: 5px;
+}
+.submit_reset_btn{
+	width:200px;
+	margin:0 auto;
+	padding:25px 0 80px 0;
+}
+.btn_style2{
+	float:left;
+	
+	height:30px;
+	font-size: 22px;
+   color: white;
+   background: #64AAFF;
+   border: 0;
+   border-radius: 5px;
+	
+
+}
+
+.reset_btn{
+	margin-left:10px;
+	
+}

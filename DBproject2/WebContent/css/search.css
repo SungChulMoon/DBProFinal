@@ -1,0 +1,108 @@
+@CHARSET "EUC-KR";
+#sub_content{
+	min-width:320px;
+	max-width:925px;
+	margin:10 auto;
+	
+	float:left;
+}
+
+
+#sub_content fieldset{
+	padding-left:20px;
+	padding-right:20px;
+}
+
+
+#sub_content h4{
+	padding-top:20px;
+	color:#406997;
+	font-size:1.3em;
+	letter-spacing:-2px;
+}
+
+#sub_content legend{
+	color:#406997;
+	font-size:1.1em;
+	letter-spacing:-1px;
+	
+	padding-top:30px;
+	padding-left:10px;
+	padding-bottom:5px;
+	color:#033773;
+	backgroun:ulr("../img/join_form_title_bullet.gif") no-repeat left 35px;
+}
+
+
+
+table a:link {
+	color: #406997;
+	font-weight: bold;
+	text-decoration:none;
+}
+table a:visited {
+	color: #999999;
+	font-weight:bold;
+	text-decoration:none;
+}
+table a:active,
+table a:hover {
+	color: #bd5a35;
+	text-decoration:underline;
+}
+table {
+	font-family:Arial, Helvetica, sans-serif;
+	color:0;
+	font-size:12px;
+	background:#ffffff;
+	margin:20px;
+
+
+	-moz-box-shadow: 0 1px 2px #d1d1d1;
+	-webkit-box-shadow: 0 1px 2px #d1d1d1;
+	box-shadow: 0 1px 2px #d1d1d1;
+}
+table th {
+	padding:15px;
+	border-top:1px solid #406997;
+	border-bottom:1px solid #406997;
+
+	background: #9BC3FF;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+	background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+}
+
+table th:first-child{
+	text-align: left;
+	padding-left:20px;
+}
+
+table tr{
+	text-align: center;
+	padding-left:20px;
+}
+table tr td:first-child{
+	text-align: left;
+	padding-left:20px;
+	border-left: 0;
+}
+table tr td {
+	padding:12px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+
+table tr:last-child td{
+	border-bottom:0;
+}
+
+table tr:hover td{
+	background: #f2f2f2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
+}

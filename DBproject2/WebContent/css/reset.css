@@ -1,0 +1,28 @@
+@CHARSET "EUC-KR";
+
+@font-face{
+	font-family:'NanumGothic';
+	src:url(./font/NanumGothic.ttf) format('truetype');
+}
+
+body, div, h1, h2, h3, h4, p, ul, li{
+	margin:0;
+	padding:0;
+}
+ul{list-style:none;}
+a{
+	text-decoration:none;
+	color:#000000;
+}
+img{border:0;}
+body{
+	font-family:NanumGothic;
+	font-size:100%;
+	line-height:1.2em;
+
+		
+}
+
+html { background: url(./img/backGround.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+
+ 
